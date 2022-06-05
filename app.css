@@ -1,0 +1,297 @@
+body{
+  background: #fff;
+  color:black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0%;
+}
+
+a{
+  text-decoration:none ;
+}
+
+.btn1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(9, 214, 54);
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  letter-spacing: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-container{
+  border-bottom:orange 2px solid;
+  
+}
+
+.header-top{
+  display:flex;
+  margin:0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 90%;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color:#fff;
+}
+
+.header-left{
+float:left;
+}
+
+.logo{
+  width:124px;
+  margin-top: 20px;
+}
+
+.header-right{
+  float:right;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding:0 25px;
+  color:white;
+  display:block;
+}
+
+
+.top-wrapper-container{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.top-wrapper h1{
+  margin: 15px 0;
+}
+
+.btn2{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(9, 214, 54);
+  color: #fff;
+  width: 100px;
+  height: 40px;
+}
+
+.top-wrapper-left{
+  width:35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position:relative;
+  margin-left: 10%;
+}
+
+.top-wrapper-right{
+  width: 65%;
+  position:relative;
+}
+
+.img1{
+  max-width: 95px;
+  width: 12.5%;
+  position:absolute;
+  top:80px;
+  left:5%;
+}
+
+.img2{
+ width: 100%;
+ margin-top: 130px;
+}
+
+
+.Message-wrapper{
+  height: 500px;
+  padding:80px ;
+}
+
+.Message-wrapper{
+  background-color: azure;
+  padding: 50px 0;
+  height: auto;
+}
+
+.Message-container{
+  width:80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+
+.message-title h2{
+  margin: 0 0 10px;
+  font-size: 40px;
+  color:chocolate;
+  letter-spacing: 10px;
+}
+
+.message-title h3{
+  font-size: 14px;
+  color:rgb(226, 186, 43);
+} 
+
+
+.blog h2{
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: crimson;
+}
+
+.blog h3{
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.blog li{
+  list-style: none;
+}
+
+.blog-container{
+  width: 75%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-list-container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.blog-item{
+  width:45%;
+  margin-bottom:5%;
+}
+
+.blog-item-top img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-item-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 10px;
+}
+
+
+
+.blog-item-bottom-left{
+  padding:5px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.blog-item-bottom-right{
+  font-size: 12px;
+  color:rgb(233, 18, 132)
+}
+
+
+
+
+.bottomBaner{
+  height: auto;
+  padding:40px 0;
+  background-color:rgb(219, 218, 240);
+}
+
+.bottomBaner-container{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bottomBaner-left{
+  width:35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position:relative;
+  color:rgb(11, 2, 2)
+}
+
+
+.bottoBaner-main{
+  font-size: 25px;
+}
+
+.bottoBaner-sub{
+  padding-bottom:20px;
+}
+
+.bottomBaner-right{
+  width: 65%;
+  position:relative;
+}
+
+.bottomBaner-right img{
+  width: 100%;
+}
+
+.Message-btn{
+  text-align: center;
+  padding-bottom: 50px;
+  height: 100px;
+}
+
+.big-btn{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(9, 214, 54);
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+}
+
+
+footer{
+  padding: 50px 0;
+  
+}
+
+.footer-container{
+  display:flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer1{
+text-align: left;
+width:25%;
+line-height: 2;
+}
+
+.footer1 img{
+  width: 90%;
+}
+
+footer li{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ opacity: 0.5;
+}
